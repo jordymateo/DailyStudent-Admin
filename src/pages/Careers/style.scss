@@ -1,0 +1,13 @@
+.pensum-management {
+    small {
+        font-size: smaller;
+        font-weight: normal;
+    }
+    .pensum-info {
+        * {
+            font-weight: normal;
+        }
+        text-align: right;
+        border-bottom: 1px solid #ccc;
+    }
+}

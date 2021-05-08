@@ -1,0 +1,85 @@
+.side-bar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  .dx-texteditor.dx-editor-outlined {
+    border-radius: 30px !important;
+    .dx-dropdowneditor-button {
+      border-radius: 30px;
+      height: 45px;
+    }
+    .dx-dropdowneditor-icon {
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+  }
+  .menu-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      width: 50px;
+      margin: 0 10px 0 20px;
+    }
+    label {
+      font-size: 18px;
+    }
+  }
+  .institutions-option {
+    padding: 50px 0px 10px;
+  }
+
+  .assigments-option {
+    padding: 50px 0;
+    label {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 15px;
+      margin-top: 50px;
+      color: rgb(167, 167, 167);
+      text-align: center;
+    }
+  }
+}
+
+.treeview-institution-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+}
+
+.dropdown-institution-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 14px;
+  height: 100%;
+  img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .dropdown-institution-text {
+    label {
+      display: inherit;
+      &:first-child {
+        font-weight: bold;
+      }
+    }
+    input:disabled  {
+      padding: 0;
+      background-color: none !important;
+    }
+  }
+}

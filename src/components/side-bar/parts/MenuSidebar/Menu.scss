@@ -1,0 +1,26 @@
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 2em;
+  a {
+    font-size: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #333 !important;
+    font-weight: 300;
+    margin-top: 2em;
+    .dx-icon {
+      font-size: 20px;
+      margin-right: 5px;
+    }
+  }
+  ul {
+    padding: 0;
+    li {
+      padding-bottom: 5px;
+      text-decoration: none;
+      list-style: none;
+    }
+  }
+}
